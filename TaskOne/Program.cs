@@ -27,17 +27,6 @@ namespace TaskOne
 
             double xmax, xmin;
 
-            //double AB = Math.Sqrt((arr[2] - arr[0]) * (arr[2] - arr[0]) + (arr[3] - arr[1]) * (arr[3] - arr[1]));
-            //double AC = Math.Sqrt((arr[0] - arr[4]) * (arr[0] - arr[4]) + (arr[1] - arr[5]) * (arr[1] - arr[5]));
-            //double BC = Math.Sqrt((arr[4] - arr[2]) * (arr[4] - arr[2]) + (arr[5] - arr[3]) * (arr[5] - arr[3]));
-
-            //if (AB >= AC + BC || AC >= AB + BC || BC >= BC + AC)
-            //{
-            //    Console.WriteLine("Тр-ка не сущ-ет.");
-            //    Console.ReadLine();
-            //    return;
-            //}
-
             if (arr[0] > arr[2])
             {
                 xmax = arr[0];
